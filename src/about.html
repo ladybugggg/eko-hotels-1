@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ladybug">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/fontawesome/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./output.css">
+    <title>About us - Eko Hotels & Suites</title>
+</head>
+
+<body>
+
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">HOME
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg></button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                </li>
+                            </ul>
+                            <div class="py-1">
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
+                                    out</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded  md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                            aria-current="page">DINING</a>
+                    </li>
+
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">MEETINGS
+                            & BANQUETING
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg></button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                </li>
+                            </ul>
+                            <div class="py-1">
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
+                                    out</a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+
+
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse ">
+                <img src="https://www.ekohotels.com/assets/img/logo-header.jpg" class="h-8" alt="Flowbite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+            </a>
+            <button data-collapse-toggle="navbar-dropdown" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">RECREATIONAL
+                            SERVICES
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg></button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                </li>
+                            </ul>
+                            <div class="py-1">
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
+                                    out</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">EVENTS
+
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg></button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                </li>
+                            </ul>
+                            <div class="px-4">
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
+                                    out</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                            aria-current="page">GALLERY</a>
+                    </li>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <div class="bg-cover"
+        style="background-image: url(/imgs/AboutBG.jpg); background-position-y: center; height: 25vh;">
+        <div class="p-16">
+            <h2 class="text-white text-5xl font-bold">About us</h2>
+            <p class="text-[#CDA274] pt-2 text-xl">Home <span class="text-white">/ About us</span></p>
+        </div>
+    </div>
+    <div class="px-[7.5rem] bg-white">
+        <h2 class="text-center py-14 text-4xl font-bold"> <span class="text-[#CDA274]">ABOUT</span> EKO HOTELS & SUITES
+        </h2>
+        <div class="text-[18px]">
+            <p class="pb-5">
+                Eko Hotels & Suites is the most preferred hotel in West Africa and it's all about the right
+                mix!
+                Located in
+                the heart of Victoria Island and shielded from the hustle and bustle of the Lagos metropolis, we offer
+                our
+                corporate clients and walk in guests a perfect blend of relaxation, activities, and African tradition
+                delicately infused to meet the highest international standards.
+            </p>
+
+            <p class="pb-5">
+                Overlooking the Eko Atlantic City and Ocean, it is just a 10-minute drive to the City Centre and only
+                45minutes away from the Airport.
+            </p>
+
+            <p class="pb-5"> Our hotels are designed for your comfort and convenience. Your security is our primary
+                concern
+                and
+                you'll
+                find our customer care second to none.
+            </p>
+
+            <p class="pb-5">
+                Our hotel has taken important steps to live up to West Africa's future model in the hospitality sector.
+                With
+                the best conference and banqueting facilities, tastefully furnished to a 7000-seater capacity, a
+                world-class
+                swimming pool, 824 excellently furnished rooms spread across 4 hotels: EKO SIGNATURE, EKO SUITES, EKO
+                HOTEL
+                AND KURAMO GARDENS, mostly with a choice of city and sea views. We have 9 different restaurants and 7
+                different bars serving a range of international cuisines, amongst other facilities.
+            </p>
+
+
+
+            <p class="pb-5">
+                The hotel is equipped with a state of the art health and fitness centre comprising of a gym, a
+                tennis/basket
+                ball court, a volley ball court, a sauna, spa, salon, and nail studio. We have an in-house medical
+                clinic as
+                well.
+            </p>
+
+            <p class="pb-5">
+                We host the best themed buffet every Friday evening where we serve specialties across the globe: Africa,
+                Asia, America, Italy, Mexico Middle East and Mongolia amongst others.
+
+            </p>
+
+            <p class="pb-5">
+                We are passionate about serving you and look forward to having you.
+
+            </p>
+
+
+            <p class="pb-5">
+                Welcome to Eko Hotels & Suites, Nesting International Standards with African Hospitality.
+
+            </p>
+        </div>
+    </div>
+
+    <div class="bg-[#FAFAFA] px-[7.5rem]">
+        <h2 class=" text-4xl font-bold pt-14"> <span class="text-[#CDA274]">OUR</span> VISION & MISSION
+
+            <ul class="text-[18px] list-disc font-normal pt-6 px-6">
+                <li>
+                    We aspire to be the leading and preferred hotel in West Africa
+                </li>
+
+                <li>
+                    We are committed to exceeding guests' expectations
+                </li>
+                <li>
+                    We are dedicated to providing impeccable facilities and personalized services
+                </li>
+                <li>
+                    We are proud to deliver genuine care, comfort and warmth to all our guests
+                </li>
+                <li>
+                    We pursue growth and development through continuous learning
+                </li>
+                <li>
+                    We are constantly adapting to an ever-changing world
+                </li>
+                <li>
+                    Eko Hotels & Suites... Nesting International Standards with African Hospitality
+                </li>
+
+            </ul>
+
+
+    </div>
+
+
+
+
+
+    <div class="bg-[#FAFAFA] px-[7.5rem]">
+        <h2 class=" text-4xl font-bold pt-6"> <span class="text-[#CDA274]">OUR</span> VALUES
+
+            <ul class="text-[18px] list-disc font-normal pt-6 px-6">
+                <li>
+                    Commitment to Excellence
+                </li>
+
+                <li>
+                    Pursuit of Growth
+                </li>
+                <li>
+                    Genuine Care
+                </li>
+                <li>
+                    Dedication
+                </li>
+                <li>
+                    Creativity
+                </li>
+                <li>
+                    Passion
+                </li>
+                <li>
+                    Pride
+                </li>
+                <li>
+                    Integrity and Discipline
+                </li>
+                <li>
+                    Socially and Environmentally Responsible
+                </li>
+
+            </ul>
+
+
+    </div>
+
+    <div class="bg-[#1E2529] w-full h-[110vh]">
+
+        <div class="flex w-full">
+            <div class="flex w-1/3 align-middle justify-center">
+                <ul class="text-white py-20 leading-[3rem]">
+                    <li class="hover:text-[#CDA274]"><a href="">ABOUT</a></li>
+                    <li class="hover:text-[#CDA274]"><a href="">GALLERY</a></li>
+                    <li class="hover:text-[#CDA274]"><a href="">OUR EVENTS</a></li>
+                    <li class="hover:text-[#CDA274]"><a href="">OUR HOTELS</a></li>
+                    <li class="hover:text-[#CDA274]"><a href="">DINING</a></li>
+                    <li class="hover:text-[#CDA274]"><a href="">OUR VISION & MISSION</a></li>
+                    <li class="hover:text-[#CDA274]"><a href="">CONTACT US</a></li>
+                    <li class="hover:text-[#CDA274]"><a href="">TERMS & CONDITIONS</a></li>
+                </ul>
+
+            </div>
+
+            <div class="flex-col w-1/3  pt-14 align-baseline justify-start">
+                <img class="pl-36" src="https://www.ekohotels.com/assets/img/logo-footer.png" alt=""
+                    style="width: 55%; height: 25%;">
+
+                <div class="text-white pt-10">
+                    <p class="pb-5">
+                        Plot 1415 Adetokunbo Ademola Street, PMB 12724, Victoria Island, Lagos Nigeria
+                    </p>
+                    <p class="pb-5">
+                        International Calls: +234 201 2772700, National Calls: 0201 2772700
+                    </p>
+                    <p class="pb-5">
+                        Fax: +234 1 2704071
+                    </p>
+                    <p class="pb-5">
+                        sales@ekohotels.com, reservation@ekohotels.com, banquet@ekohotels.com
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="flex-col w-1/3 text-white justify-items-start py-20 px-28">
+                <h4 class="text-[#CDA274] pb-5 tracking-[8px]">NEWSLETTER</h4>
+                <p class="text-[18px] pb-5">Subscribe to our email newsletter to receive updates and news.</p>
+
+                <input type="email" name="" id="" placeholder="Email address"
+                    class="w-[80%] h-[5.6vh] bg-transparent text-gray-200 border border-[#CDA274] pl-3"><button
+                    style="padding: 6px 2px; background: #CDA274 ; color: white; border-radius: 2px;">Click</button>
+                <div class="space-x-5 p-10">
+                    <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest fa-lg" aria-hidden="true"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="ml-36">
+            <hr style="width: 85%; color:red;">
+
+        </div>
+
+
+        <div class="flex justify-center align-middle mt-8 font-semibold">
+            <button type="submit" style="color: white; background: #CDA274; padding: 0.7rem 2.5rem;">THE
+                COMPANY</button>
+        </div>
+        <div class="text-center text-white font-semibold pt-3 pb-5">
+            <p class="flex-col">Copyright &copy;2024 Eko Hotels & Suites</p>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
